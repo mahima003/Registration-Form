@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    /* background-color: blueviolet; */
+    max-height: 100%;
+}
+.register{
+   background-image: url('th.jpg') ;
+    max-width: 30vw;
+    margin: 100px auto 0px auto;
+    font-style:italic;
+   
+}
+h2{
+    text-align: center;
+   /* padding : 100px ; */
+}
+.register .kl.error input{
+    /* border: 10px red dotted; */
+   border-color: rgb(245, 8, 8);
+    /* background-color: burlywood; */
+}
+.register .kl.success input{
+    /* border: 10px red dotted; */
+   border-color: rgb(67, 208, 67);
+    /* background-color: burlywood; */
+}
+#form{
+    margin: 0px 75px;
+    padding-top: 5px;
+   
+}
+#fname,#email,#password,#password1{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+   width: 300px;
+   height: 25px;
+ 
+   padding: 3px;
+ 
+}
+
+
+.submit{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+    cursor: pointer;
+
+
+}
+.register .kl.error input{
+    border-color: #f00;
+    border-width: 2px;
+    
+}
+.submit:hover{
+   background-color: blue;
+   color: white;
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 1500px) {
+  #fname,#email,#password,#password1{
+    width: 80%;
+  }
+  .register {
+    max-width: 50%;
+  }
+    
+}
